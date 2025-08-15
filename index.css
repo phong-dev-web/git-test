@@ -6,6 +6,10 @@
 body {
     background-color: hsl(0, 0%, 8%);
 }
+@font-face {
+    font-family: 'hhh';
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetupe');
+}
 .main {
     display: block;
     position: relative;
@@ -31,10 +35,12 @@ body {
     display: block;
     position: relative;
     top: 70px;
+    font-family: 'hhh', sans-serif;
 }
 .main p {
     position: relative;
     top: 70px;
+    font-family: 'hhh', sans-serif;
 }
 #special {
     color: hsl(75, 94%, 57%);
@@ -53,6 +59,7 @@ body {
     line-height: 30px;
     border-radius: 100px;
     background-color: hsl(0, 0%, 20%);
+    font-family: 'hhh', sans-serif;
 }
 a:hover {
     background-color: white;
